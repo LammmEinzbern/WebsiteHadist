@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.btn_my_hadist{
+    width: 200px;
+}
+#output{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+}
+.custom-section {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .custom-section h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .custom-section em {
+    color: #000000;
+    font-size: 16px;
+  }
+.card-hadist{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+.img-hadits{
+    width: 100%;
+    height: 400px;
+}
+.img-hadits img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-hadist{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.boxs{
+    box-shadow: rgba(255, 25, 25, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 16px;
+    border-radius: 5px;
+}
+.text-hadits{
+    white-space: normal;
+    text-align: justify;
+}
+
+.arab{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.back{
+    color: black;
+}
+.footer {
+    background-color: #333; 
+    color: #000000; 
+    text-align: center; 
+    padding: 10px; 
+    position: absolute; 
+    width: 100%; 
+    bottom: 13; 
+}
+.footer p {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
